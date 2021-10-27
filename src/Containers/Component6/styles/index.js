@@ -9,31 +9,51 @@ IntroSection.Wrapper = styled.div`
 `;
 IntroSection.mainWrapper = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-right: -18rem;
+  .triangle-Up {
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 270px solid #005;
+    margin-right: -18rem;
+    margin-top: -6rem;
 
-  width: 45%;
-  .box {
-    width: 150px;
-    height: 150px;
-    background: lightgrey;
-    margin-top: 120px;
-    transform: skewX(40deg);
-    animation: three 3s infinite;
+    transform: rotateX(60deg);
+    animation: four 3s infinite;
     animation-direction: alternate;
-    background-color: green;
+  }
+  .triangle-Down {
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-top: 270px solid #005;
+    margin-right: 18rem;
+    margin-top: 6rem;
 
-    // transition: transform 1s ease-in-out;
+    transform: rotateX(60deg);
+    animation: five 3s infinite;
+    animation-direction: alternate;
   }
 
-  @keyframes three {
+  @keyframes four {
     0% {
-      opacity: 0.7;
-      transform: rotate(0deg) translate(0, 0);
+      transform: rotate(0deg);
     }
     100% {
-      opacity: 0.5;
-      background-color: yellow;
-      transform: rotate(180deg) translate(-120px, -120px);
+      opacity: 0.3;
+      transform: rotate(360deg);
+      border-color: red;
+    }
+  }
+  @keyframes five {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      opacity: 0.3;
+      transform: rotate(360deg);
+      border-color: purple;
     }
   }
 `;

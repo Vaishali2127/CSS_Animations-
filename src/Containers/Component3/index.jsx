@@ -1,15 +1,15 @@
 import React from "react";
 import { IntroSection } from "./styles";
-const Component1 = () => {
+const Component3 = () => {
   return (
     <IntroSection.Wrapper>
       <IntroSection.mainWrapper>
-        <div className="box" />
-        <div className="box" />
-        <div className="box" />
+        <div className="box skewed" />
+        <div className="box skewed" />
+        <div className="box skewed" />
       </IntroSection.mainWrapper>
     </IntroSection.Wrapper>
   );
 };
 
-export default Component1;
+export default Component3;

@@ -11,26 +11,24 @@ IntroSection.mainWrapper = styled.div`
   display: flex;
   justify-content: space-around;
 
-  width: 40%;
+  width: 45%;
   .box {
     width: 150px;
     height: 150px;
-    background: skyblue;
-    margin-top: 20px;
-
-    // transition: background-color 1s ease-in-out;
-    // transform: skew(20deg);
-    animation: skew 3s infinite;
-    transform: skew(20deg);
+    background: lightgrey;
+    margin-top: 40px;
+    transform: skewX(40deg);
+    animation: one 2s infinite;
     animation-direction: alternate;
+    // transition: transform 1s ease-in-out;
+  }
 
-    @keyframes skew {
-      0% {
-        transform: skewX(20deg);
-      }
-      100% {
-        transform: skewX(-20deg);
-      }
+  @keyframes one {
+    0% {
+      transform: skewY(20deg);
+    }
+    100% {
+      transform: skewY(-20deg);
     }
   }
 `;

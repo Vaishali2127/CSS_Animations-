@@ -1,7 +1,7 @@
 // import "./App.css";
 import React from "react";
 import styled from "styled-components/macro";
-import { Component1, Component2 } from "./Containers";
+import { Component1, Component2, Component3 } from "./Containers";
 
 const Wrapper = styled.div`
   height: 100vh;
@@ -14,6 +14,7 @@ const App = () => {
     <Wrapper>
       <Component1 />
       <Component2 />
+      <Component3 />
     </Wrapper>
   );
 };

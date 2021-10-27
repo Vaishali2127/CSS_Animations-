@@ -11,12 +11,12 @@ IntroSection.mainWrapper = styled.div`
   display: flex;
   justify-content: space-around;
 
-  width: 40%;
+  width: 45%;
   .box {
     width: 150px;
     height: 150px;
     background: skyblue;
-    margin-top: 20px;
+    margin-top: 40px;
 
     // transition: background-color 1s ease-in-out;
     // transform: skew(20deg);

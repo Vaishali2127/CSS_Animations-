@@ -15,22 +15,22 @@ IntroSection.mainWrapper = styled.div`
   .box {
     width: 150px;
     height: 150px;
-    background: skyblue;
+    background: lightgrey;
     margin-top: 70px;
-
-    // transition: background-color 1s ease-in-out;
-    // transform: skew(20deg);
-    animation: skew 3s infinite;
-    transform: skew(20deg);
+    transform: skewX(40deg);
+    animation: two 2s infinite;
     animation-direction: alternate;
+    background-color: #831a4a;
+    opacity: 0.7;
+    // transition: transform 1s ease-in-out;
+  }
 
-    @keyframes skew {
-      0% {
-        transform: skewX(20deg);
-      }
-      100% {
-        transform: skewX(-20deg);
-      }
+  @keyframes two {
+    0% {
+      transform: rotateZ(0deg);
+    }
+    100% {
+      transform: rotateZ(100deg);
     }
   }
 `;

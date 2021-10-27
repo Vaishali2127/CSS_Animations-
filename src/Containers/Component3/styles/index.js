@@ -15,8 +15,9 @@ IntroSection.mainWrapper = styled.div`
   .box {
     width: 150px;
     height: 150px;
-    background: lightgrey;
-    margin-top: 40px;
+    background: linear-gradient(135deg, lightpink, yellow, skyblue);
+
+    margin-top: 70px;
     transform: skewX(40deg);
     animation: one 2s infinite;
     animation-direction: alternate;

@@ -13,7 +13,8 @@ IntroSection.mainWrapper = styled.div`
     height: 150px;
     background: skyblue;
     margin-top: 20px;
-    animation: anim 10s infinite;
+    // animation-iteration-count: 3;
+    animation: anim 5s infinite;
     animation-direction: alternate;
     :hover {
       transition: background-color 1s ease-in-out;
@@ -27,20 +28,16 @@ IntroSection.mainWrapper = styled.div`
 
       25% {
         border-radius: 0%;
-        width: 0px;
-        height: 0px;
+        width: 250px;
+        height: 150px;
       }
 
       50% {
-        width: 200px;
-        height: 200px;
-      }
-      75% {
-        width: 0px;
-        height: 0px;
+        width: 150px;
+        height: 150px;
       }
 
-      100% {
+      75% {
         border-radius: 100%;
         opacity: 0.5;
         width: 150px;
@@ -53,6 +50,10 @@ IntroSection.mainWrapper = styled.div`
           skyblue,
           purple
         );
+      }
+      100% {
+        width: 0px;
+        height: 0px;
       }
     }
   }

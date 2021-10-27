@@ -11,7 +11,7 @@ IntroSection.mainWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 180px;
   margin-right: -18rem;
   .triangle-Up {
     border-left: 150px solid transparent;

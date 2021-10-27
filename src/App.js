@@ -2,6 +2,7 @@
 import React from "react";
 import styled from "styled-components/macro";
 import {
+  Component,
   Component1,
   Component2,
   Component3,
@@ -19,6 +20,7 @@ const Wrapper = styled.div`
 const App = () => {
   return (
     <Wrapper>
+      <Component />
       <Component1 />
       <Component2 />
       <Component3 />

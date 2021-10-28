@@ -10,6 +10,7 @@ import {
   Component4,
   Component5,
   Component6,
+  Component7,
 } from "./Containers";
 import Component0 from "./Containers/Component0";
 
@@ -30,6 +31,7 @@ const App = () => {
       <Component4 />
       <Component5 />
       <Component6 />
+      <Component7 />
     </Wrapper>
   );
 };

@@ -11,8 +11,8 @@ import {
   Component5,
   Component6,
   Component7,
+  Component8,
 } from "./Containers";
-import Component0 from "./Containers/Component0";
 
 const Wrapper = styled.div`
   height: 100vh;
@@ -31,6 +31,7 @@ const App = () => {
       <Component4 />
       <Component5 />
       <Component6 />
+      <Component8 />
       <Component7 />
     </Wrapper>
   );

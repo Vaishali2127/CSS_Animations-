@@ -3,7 +3,6 @@ import styled from "styled-components/macro";
 export const IntroSection = {};
 
 IntroSection.Wrapper = styled.div`
-  margin-top: 5rem;
   display: flex;
   width: 100%;
   height: 90vh;

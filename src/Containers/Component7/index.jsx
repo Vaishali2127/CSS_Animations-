@@ -6,7 +6,7 @@ const Component7 = () => {
       <IntroSection.MainWrapper className="container">
         <IntroSection.Circle>
           <IntroSection.Vapour>
-            <span></span>
+            <span style={{}}></span>
           </IntroSection.Vapour>
           <IntroSection.Tea />
         </IntroSection.Circle>

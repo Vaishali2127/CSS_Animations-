@@ -4,8 +4,14 @@ const Component7 = () => {
   return (
     <IntroSection.Wrapper>
       <IntroSection.MainWrapper className="container">
-        <IntroSection.Circle></IntroSection.Circle>
+        <IntroSection.Circle>
+          <IntroSection.Vapour>
+            <span></span>
+          </IntroSection.Vapour>
+          <IntroSection.Tea />
+        </IntroSection.Circle>
       </IntroSection.MainWrapper>
+      <IntroSection.Handle />
     </IntroSection.Wrapper>
   );
 };

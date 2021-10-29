@@ -12,6 +12,7 @@ import {
   Component6,
   Component7,
   Component8,
+  Component9,
 } from "./Containers";
 
 const Wrapper = styled.div`
@@ -32,6 +33,7 @@ const App = () => {
       <Component5 />
       <Component6 />
       <Component8 />
+      <Component9 />
       <Component7 />
     </Wrapper>
   );

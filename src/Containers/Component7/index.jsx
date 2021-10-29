@@ -3,7 +3,9 @@ import { IntroSection } from "./styles";
 const Component7 = () => {
   return (
     <IntroSection.Wrapper>
-      <IntroSection.MainWrapper className="box">hi</IntroSection.MainWrapper>
+      <IntroSection.MainWrapper className="container">
+        <IntroSection.Circle></IntroSection.Circle>
+      </IntroSection.MainWrapper>
     </IntroSection.Wrapper>
   );
 };
